@@ -1,4 +1,88 @@
 @startuml
-Alice -> Bob: Hello Bob
-Bob --> Alice: Hi Alice
+salt
+skinparam Backgroundcolor #F0F0F0
+
+{
+
+{*File | Settings | Help}
+
+{.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|<img:Header1.png>}
+
+{		
+{^Quantum Gates 
+|.|
+{^Single Qubit  
+   [<color: lime>I   ]| [<color: orange>X   ]
+   [<color: pink>Y   ]| [<color: blue>Z   ]
+   [<color: purple>H   ]| [<color: green>S   ]
+   [<color: indigo>T   ]| [<color: Iris>U   ]
+}
+|.|
+{^Multi Qubit
+   [<color: purple>CX       ]
+   [<color: pink>SWAP     ]
+   [<color: navy>CU       ]
+   [<color: crimson>CCX      ]
+}
+|.|
+{^Operations
+   [BARRIER  ]
+}|.|
+}|.|
+{^"Quantum Circuit"
+{
+{+
+
+<img:Cell1.png>}|
+{+
+
+<img:Cell1.png>}|
+{+
+<img:Cell1.png>}|{+
+
+<img:Cell1.png>}|{+
+
+<img:Cell1.png>}
+{+
+
+<img:Cell1.png>}|
+{+
+
+<img:Cell1.png>}|
+{+
+
+<img:Cell1.png>}|{+
+
+<img:Cell1.png>}|{+
+
+<img:Cell1.png>}
+
+{+
+
+<img:Cell1.png>}|
+{+
+
+<img:Cell1.png>}|
+{+
+
+<img:Cell1.png>}|{+
+
+<img:Cell1.png>}|{+
+
+<img:Cell1.png>}
+
+}
+}
+}
+
+{.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|[New Circuit]|[ Step ]|[ Reset ]|Step: 0/5}
+			
+
+{+Tensor Product: 0...0>|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|..|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|}
+
+{^"Messages"
+. 
+.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|..|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|
+}
+}
 @enduml
